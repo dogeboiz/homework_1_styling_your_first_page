@@ -14,6 +14,13 @@ header {
 /* Navigation styling */
 nav {
     background-color: #45a049;
+    display: inline-block;
+    width: 80%;
+}
+
+/* Navigation image styling */
+nav img {
+    width: 10%;
 }
 
 /* Main content styling */
@@ -28,10 +35,10 @@ footer {
 }
 
 /* List item styling */
-li {
+/* li {
     display: inline-block;
     width: 150px;
-}
+} */
 
 /* Heading styling */
 h1 {
@@ -43,4 +50,25 @@ h1 {
 /* Paragraph styling */
 p {
     line-height: 1.6;
+}
+
+/* Grid class styling */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Grid images styling */
+.grid img {
+    width: 100%;
+}
+
+/* Flex class styling */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 } 
